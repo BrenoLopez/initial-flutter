@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const TestGestureDetectorWidget(),
-        '/stateful-widget': (context) => TestStateFulWidget(),
-        '/lifecycle': (context) => LifecyCleWidget()
+        '/stateful-widget': (context) => const TestStateFulWidget(),
+        '/lifecycle': (context) => const LifecyCleWidget()
       },
     );
   }
