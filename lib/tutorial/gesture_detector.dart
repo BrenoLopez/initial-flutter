@@ -19,7 +19,7 @@ class TestGestureDetectorWidget extends StatelessWidget {
               child: const Center(
                   child: Text(
                 'StateFulWidget',
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(color: Colors.red),
               )),
             ),
           ),
