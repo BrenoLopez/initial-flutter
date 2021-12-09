@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:initialflutter/tutorial/gesture_detector.dart';
+import 'package:initialflutter/tutorial/keys.dart';
 import 'package:initialflutter/tutorial/stateful_widget.dart';
 
 import 'tutorial/lifecycle_widget.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const TestGestureDetectorWidget(),
         '/stateful-widget': (context) => const TestStateFulWidget(),
-        '/lifecycle': (context) => const LifecyCleWidget()
+        '/lifecycle': (context) => const LifecyCleWidget(),
+        '/keys': (context) => const KeyWidget()
       },
     );
   }

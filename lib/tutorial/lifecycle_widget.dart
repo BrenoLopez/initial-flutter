@@ -27,7 +27,7 @@ class _LifecyCleWidgetState extends State<LifecyCleWidget> {
       body: Center(
         child: GestureDetector(
           onTap: () {
-            Navigator.pushNamed(context, '/lifecycle');
+            Navigator.pushNamed(context, '/keys');
           },
           child: Padding(
             padding: const EdgeInsets.only(left: 16, right: 16, top: 16),
