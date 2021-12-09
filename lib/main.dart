@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const TestGestureDetectorWidget(),
         '/stateful-widget': (context) => const TestStateFulWidget(),
         '/lifecycle': (context) => const LifecyCleWidget(),
-        '/keys': (context) => const PositionedTiles()
+        '/keys': (context) => const KeyWidget()
       },
     );
   }
